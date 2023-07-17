@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#header{
+    display: Flex;
+    justify-content: space-between;
+    background-color: rgb(255, 7, 40);
+    width:100%;
+    height: 7rem;
+    position: fixed;
+    z-index: 2;
+}
+
+#logo{
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 17%;
+    height: 3rem;
+    width: 4rem;
+}
+
+#logo2{
+    background-color: white;
+
+    z-index: 2;
+}
+
+#links{
+    margin-top: 3rem;
+    
+}
+
+#logo3{
+    display: flex;
+    flex-direction: column;
+}
+
+.fpl{
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Haettenschweiler;
+    
+}
+
+.img{
+    margin-top: rem;
+    height: 40rem;
+    width:40rem;
+}
+
+.words{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.bigh{
+    color: rgb(16, 67, 207);
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.smallh{
+    color: rgba(21, 200, 216, 0.542);
+    font-size: 1rem;
+
+}
+
+.fbtn{
+    margin: 3rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-family: monotype corsiva;
+    color:rgb(11, 238, 241);
+    background-color:rgb(255, 7, 40);
+}
+.bdy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.mp {
+    display: flex;
+    margin: 5rem;
+    height:10rem;
+    width: 15rem;
+    padding: 3rem;
+    background-color:rgb(193, 243, 242);
+    outline-color: rgb(206, 77, 77);
+    text-align: center;
+    border-radius: 7%;
+}
+
+.mini{
+    padding-top: 10rem;
+    padding-left: 1rem;
+    z-index: 0;
+    width: 100%;
+}
+
+#cc{
+    display: flex;
+    height: 10rem;
+    width: 30rem;
+    background-color:white;
+}
+
+#abtn{
+    height:10rem;
+    width: 10rem;
+    color:rgb(11, 238, 241);
+    background-color:rgb(250, 144, 220);
+    font-size: 2rem;
+    border: 2px solid red;
+}
+
+#abtn2{
+    height:10rem;
+    width: 10rem;
+    color:rgb(11, 238, 241);
+    background-color:rgb(250, 144, 220);;
+    font-size: 1.7rem;
+    border: 2px solid red;
+}
+
+#screen1{
+    height:10rem;
+    width: 20rem;
+    color:rgb(11, 238, 241);
+    background-color:white;
+    font-size: 2rem;
+    border: 1px double red; 
+}
+
+hr {
+    border: 3px double rgb(11, 238, 241);
+}
+
+#screen2{
+    height:10rem;
+    width: 20rem;
+    color:rgb(11, 238, 241);
+    background-color:white;
+    font-size: 2rem;
+    border: 1px dashed red; 
+}
+
+#space1{
+    height:10rem;
+    width: 1rem;
+    color:rgb(11, 238, 241);
+    background-color:red;
+    font-size: 2rem;
+    border: 1px dashed red; 
+}
+
+.appcont{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+#pt {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-family: Lucida Handwriting;
+    color: pink;
+    text-shadow: 2px 2px 4px red;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
