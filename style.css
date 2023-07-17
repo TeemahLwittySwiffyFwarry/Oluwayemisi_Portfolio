@@ -195,4 +195,9 @@ body{
         display: flex;
         flex-direction: column;
     }
+
+    .img{
+        height: 30rem;
+        width: 30rem;
+    }
 }
