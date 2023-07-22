@@ -204,7 +204,14 @@ body{
     }
 
     .fpl{
-        padding: 0.5rem;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .fpl1{
+        padding: 1rem;
+        margin: 0.5rem;
+
     }
 
     .bdy{
