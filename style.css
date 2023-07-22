@@ -203,10 +203,6 @@ body{
         align-items: center;
     }
 
-    .fpl{
-        margin: 0.5rem;
-    }
-
     .bdy{
         display: flex;
         flex-direction: column;
