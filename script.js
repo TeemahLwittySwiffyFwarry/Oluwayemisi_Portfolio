@@ -3,10 +3,19 @@ let appButton1 = document.getElementById("abtn");
 let screen1 = document.getElementById("screen1");
 let appButton2 = document.getElementById("abtn2");
 let screen2 = document.getElementById("screen2");
+let mplink = document.querySelectorAll(".fpl");
 
-// project1.onmouseover = function(){
-//     alert("Click on the buttons below to learn more about the project")
-// }
+
+
+project1.onmouseover = function(){
+    let b= document.createElement("h4");
+    screen3.innerText = "";
+    b.innerText = "(Click on the App Name and App description to get a display on the empty boxes.)"
+    screen3.appendChild(b);
+    b.style.color = "rgb(11, 238, 241)";
+    b.style.fontFamily = "monotype corsiva";
+    b.style.fontSize = "1.5rem";
+}
 
 appButton1.onclick = function(){
     let a = document.createElement("p");
@@ -36,6 +45,14 @@ appButton2.onclick = function(){
     b.style.marginTop = "0.5rem";
     this.style.backgroundColor = "rgb(239, 187, 115)";
     
+}
+
+    mplink.onclick = function(){
+    alert("Why is this not working");
+    // mplink.style.width= "5rem";
+    // mplink.style.width = "2rem";
+    // mplink.style.borderRadius = "6%";
+    // mplink.style.backgroundColor = "rgb(78, 121, 238)";
 }
 
 
